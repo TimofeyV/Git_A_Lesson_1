@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+
+<section class="hello">
+    <div class="hello-content">
+        <h1>Привет {{name}}</h1>
+        <button><a href="{{ url_for('exit')}}">Выйти</a></button>
+    </div>
+</section>
+
+{%endblock%}

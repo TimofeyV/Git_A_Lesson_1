@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+<section class="about">
+    <div id="aboutme" class="aboutme">
+        <h3>Обо мне</h3>
+        <div class="information">
+            <p class="text">
+                Привет, меня зовут Важенин Тимофей, я начинающий backend-разработчик, который строит новую карьеру на том деле, которое мне действительно интересно.<br>
+                &nbsp&nbsp&nbspВ течение 9 месяцев я оттачивал свои навыки веб-разработчика, изучая создание веб-приложений с использование Django, Flask, HTML, CSS, MySQL, PostgreSQL, sqlite.<br>
+                &nbsp&nbspНа данный момент прохожу обучение в университете на инженера(магистратура),
+                также обучаюсь онлайн, на курсе - «Python-разработчик».<br>
+                &nbsp&nbsp&nbspМне нравится создавать что-то для интернета, и в последнее время я работаю с <span>Python3, Django, HTML,
+                CSS, Docker(Compose) и PostgreSQL.</span>
+            </p>
+            <img src="/static/img/log.png" class="about-photo">
+        </div>
+    </div>
+</section>
+{%endblock%}

@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0c1529;
+    color: white;
+    width : 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 15%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: #e1e5e8;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+
+}
+
+#menu-icon{
+    font-size: 30px;
+    color: #e1e5e8;
+    display: none;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 25px;
+    color: #e1e5e8;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    font-weight: 500;
+    background: linear-gradient(45deg, #a32786 30%, #07fade 90%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@media(max-width: 1400px){
+
+}
+
+@media (max-width: 768px){
+   .contactsinfo h3:before{
+        width: 40%;
+    }
+
+    .navbar{
+        position: absolute;
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+
+}

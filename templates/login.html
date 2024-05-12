@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+
+<section class="login">
+    <div class="login-content">
+        <form action="" method="post">
+            
+            <div class="content-label">
+                <label for="name">Введи свой логин: </label>
+                <input type="text" name="name">
+            </div>
+            <div class="content-label">
+                <label for="phone">Телефон: </label>
+                <input type='tel' name="phone" id="">
+            </div>
+            <input type="submit" value="Войти">
+
+        </form>
+    </div>
+</section>
+
+{%endblock%}
